@@ -45506,7 +45506,7 @@ aiL(a,b){var s=0,r=A.N(t.Wd),q,p
 var $async$yI=A.O(function(c,d){if(c===1)return A.K(d,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.Q(A.vH("http://207.180.240.216/v1/auth/login",A.aE(["email",a,"password",b],p,p)),$async$yI)
+return A.Q(A.vH("https://clothit.co/v1/auth/login",A.aE(["email",a,"password",b],p,p)),$async$yI)
 case 3:q=d
 s=1
 break
@@ -45515,7 +45515,7 @@ return A.M($async$yI,r)},
 yJ(){var s=0,r=A.N(t.Wd),q
 var $async$yJ=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.vH("http://207.180.240.216/v1/auth/logout",null),$async$yJ)
+return A.Q(A.vH("https://clothit.co/v1/auth/logout",null),$async$yJ)
 case 3:q=b
 s=1
 break
@@ -45525,7 +45525,7 @@ A.a8j.prototype={
 jg(){var s=0,r=A.N(t.yc),q,p,o,n,m,l,k,j,i,h,g,f,e
 var $async$jg=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.Ge("http://207.180.240.216/v1/users/profile"),$async$jg)
+return A.Q(A.Ge("https://clothit.co/v1/users/profile"),$async$jg)
 case 3:f=b
 e=f.b
 if(e===200){e=t.a.a(B.aK.ds(0,A.X6(J.aP(A.WW(f.e).c.a,"charset")).ds(0,f.w)))
@@ -45549,7 +45549,7 @@ return A.M($async$jg,r)},
 kx(){var s=0,r=A.N(t.y),q
 var $async$kx=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.Gd("http://207.180.240.216/v1/users/delete-me",null),$async$kx)
+return A.Q(A.Gd("https://clothit.co/v1/users/delete-me",null),$async$kx)
 case 3:if(b.b===200){q=!0
 s=1
 break}else throw A.c(A.cv("Failed to delete address"))
